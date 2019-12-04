@@ -27,8 +27,6 @@
 <body>
       <h1>Build Apps using code Ready Workspaces ! </h1>
 
-
-
       <form id="reg"  action="register.do" method="POST">
          <h2>Register (JSP Sample)</h2>
          <table>
