@@ -25,14 +25,14 @@
    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
    <!-- Here we include the css file  -->
    <link rel="stylesheet" type="text/css" href="resources/css/screen.css" />
-   
+
 <head>
 <body>
    <div id="container">
       <div id="content">
          <div id="sidebar">
-            <h3>Find out more</h3>
-            <p>Learn about JBoss AS 7.</p>
+            <h3>Build Apps in Open Demo with Code Ready workspaces</h3>
+
             <ul>
             <li><a
                href="https://docs.jboss.org/author/display/AS7/Getting+Started+Developing+Applications+Guide">JBoss
@@ -87,18 +87,18 @@
                it back to the community!
             </p>
          </div>
-   
-   			
+
+
    			<!-- here we include the Registration Form in the template page
-   			using the jsp include directive 
+   			using the jsp include directive
    			 -->
-   			
+
    			<%@ include file="registrationForm.jsp" %>
-   			
-   			
+
+
    			<!-- Statically inculde the Registration result at compilation time -->
    			<%@ include file="registrationResult.jsp" %>
-   			
+
       </div>
       <div id="footer">
          <img src="resources/gfx/logo.png" alt="Weld logo" />
