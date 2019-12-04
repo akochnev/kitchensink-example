@@ -25,11 +25,9 @@
 <title>registrationPage.jsp</title>
 </head>
 <body>
-      <h1>Welcome to JBoss AS 7!</h1>
+      <h1>Build Apps using code Ready Workspaces ! </h1>
 
-      <p>You have successfully deployed a Java EE 6 web application
-         on JBoss AS 7.
-      </p>
+
 
       <form id="reg"  action="register.do" method="POST">
          <h2>Register (JSP Sample)</h2>
@@ -45,8 +43,8 @@
                <th style="text-align: right;">
                	<label for="email">Email:</label>
                 </th>
-                
-               <td><input type="text" id="email" name="email" value="${newMember.email}"/> 
+
+               <td><input type="text" id="email" name="email" value="${newMember.email}"/>
                 <!-- <h:message  for="email" errorClass="invalid" />-->
                 </td>
             </tr>
@@ -63,12 +61,12 @@
             <input id="register" type="submit" value="Register" />
             <label style="color: green;">${infoMessage}</label>
             <label style="color: red;">${errorMessage}</label>
-            
+
          </p>
       </form>
-      
-      
-      
+
+
+
 
 </body>
 </html>
